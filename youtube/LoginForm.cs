@@ -83,6 +83,8 @@ namespace youtube
                 this.Hide();
                 LoadingForm loading = new LoadingForm();
                 loading.Show();
+                MainForm main = new MainForm();
+                main.Show();
             } else
             {
                 msgError("Username or password is not valid.");
